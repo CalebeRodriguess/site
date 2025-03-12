@@ -49,31 +49,32 @@
                 width:1900px;
                 height:630px;
                 padding:0px;
+                float:right;
             }
             .footer{
                 width:1900px;
-                height:140px;
+                height:315px;
                 padding:0px;
                 background-color:blue;
             }
             .footer1{
                 width:33%;
-                height:inherit;
+                height:150px;
                 background-color:cyan;
                 display:inline-block;
                 float:left;
             }
             .footer2{
                 width:33%;
-                height:inherit;
+                height:150px;
                 background-color:crimson;
                 display:inline-block;
                 float:left;
             }
             .footer3{
                 width:34%;
-                height:inherit;
-                background-color:aquamarine ;
+                height:150px;
+                background-color:blueviolet;
                 display:inline-block;
                 float:left;
             }
@@ -91,12 +92,9 @@
             .esquerda2{
                 width:inherit;
                 height:33%;
-                background-color:sienna;
-            }
-            .esquerda3{
-                width:inherit;
-                height:34%;
-                background-color:pink;
+                background-color: bisque;
+                display:inline-block;
+                float:left;
             }
             .centro{
                 width:1px;
@@ -106,22 +104,24 @@
                 background-color:#7CFC00;
             }
             .centro1{
-                width:1710px;
+                width:950px;
                 height:50%;
                 background-color:hotpink;
+                display:inline-block;
+                float:left;
             }
             .centro2{
-                width:1710px;
+                width:710px;
                 height:50%;
-                background-color:grey;
+                background-color:burlywood;
+                display:inline-block;
             }
-            
             .direita{
                 width:190px;
                 height:630px;
+                background-color:powderblue;
                 display:inline-block;
                 float:left;
-                background-color:#7CFC00;
             }
             .direita1{
                 width:inherit;
@@ -170,9 +170,7 @@
 
                     </div>
                     <div class="centro2">
-                   
                     </div>
-
                 </div>
                 <div class="direita">
                     <div class="direita1">
@@ -194,7 +192,6 @@
                 <div class="footer3">
 
                 </div>
-
            </div>
         </div>
     </body>
