@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
     <head>
-        <title></title>
+        <title>Projeto</title>
         <link rel="stylesheet" type="text/css" href="">
         <meta charset="utf-8">
         <script src="jquery.js"></script>
         <style>
             .site{
-                width:200px;
-                height:200px;
+                width:600px;
+                height:600px;
                 background-color:blue;
-            }
+            }            
+        
         </style>
     
     </head>
     <body>
         <div class="site">
+            <div class="um">
+                <div class="um1">INSTAGRAM</div>
+                <div class="um2"></div>
+                <div class="um3"></div>
+            </div>
+            <div class="dois">
+                <div class="dois1"></div>
+                <div class="dois2"></div>
+                <div class="dois3"></div>
+                <div class="dois4"></div>
+                <div class="dois5"></div>
+            </div>
+            <div class="tres">
+                <div class="tres1"></div>
+                <div class="tres2"></div>         
+            </div>
+            <div class="quatro">
 
+            </div>
+            <div class="cinco">
+                <div class="cinco1"></div>
+                <div class="cinco2"></div>
+                <div class="cinco3"></div>
+                <div class="cinco4"></div>
+            </div>
+            <div class="seis">
+
+            </div>
+            <div class="sete">
+                <div class="sete1"></div>
+                <div class="sete2"></div>
+                <div class="sete3"></div>
+                <div class="sete4"></div>
+                <div class="sete5"></div>
+            </div>
         </div>
     </body>    
 </html>
