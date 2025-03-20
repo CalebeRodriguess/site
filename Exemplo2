@@ -47,18 +47,183 @@
                 height:30px;
                 background-color:rgb(0, 18, 99);
             }
-        </style>
+            .um1{
+                width:33.3%;
+                height:inherit;
+                background-color:rgb(187, 19, 117);
+                display:inline-block;
+                float:right;
+            }
+            .um2{
+                width:33.3%;
+                height:inherit;
+                background-color:rgb(126, 22, 22);
+                display:inline-block;
+                float:right;
+            }
+            .um3{
+                width:33.3%;
+                height:inherit;
+                background-color:rgb(17, 80, 99);
+                display:inline-block;
+                float:right;
+            }
+            .dois1{
+                width:20%;
+                height:inherit;
+                background-color:rgb(0, 42, 66);
+                display:inline-block;
+                float:right;
+            }
+            .dois2{
+                width:20%;
+                height:inherit;
+                background-color:rgb(189, 177, 9);
+                display:inline-block;
+                float:right;
+            }
+            .dois3{
+                width:20%;
+                height:inherit;
+                background-color:rgb(255, 169, 56);
+                display:inline-block;
+                float:right;
+            }
+            .dois4{
+                width:20%;
+                height:inherit;
+                background-color:rgb(124, 204, 108);
+                display:inline-block;
+                float:right;
+            }
+            .dois5{
+                width:20%;
+                height:inherit;
+                background-color:rgb(145, 255, 0);
+                display:inline-block;
+                float:right;
+            }
+            .tres1{
+                width:33.3%;
+                height:inherit;
+                background-color:rgb(30, 39, 17);
+                display:inline-block;
+                float:right;
+            }
+            .tres2{
+                width:33.3%;
+                height:inherit;
+                background-color:rgb(31, 99, 0);
+                display:inline-block;
+                float:right;
+            }
+            .tres3{
+                width:33.3%;
+                height:inherit;
+                background-color:rgb(233, 255, 136);
+                display:inline-block;
+                float:right;
+            }
+            .cinco1{
+                width:25%;
+                height:inherit;
+                background-color:rgb(114, 83, 83);
+                display:inline-block;
+                float:right;
+            }
+            .cinco2{
+                width:25%;
+                height:inherit;
+                background-color:rgb(56, 35, 35);
+                display:inline-block;
+                float:right;
+            }
+            .cinco3{
+                width:25%;
+                height:inherit;
+                background-color:rgb(83, 121, 80);
+                display:inline-block;
+                float:right;
+            }
+            .cinco4{
+                width:25%;
+                height:inherit;
+                background-color:rgb(2, 255, 179);
+                display:inline-block;
+                float:right;
+            }
+            .sete1{
+                width:20%;
+                height:inherit;
+                background-color:rgb(128, 47, 87);
+                display:inline-block;
+                float:right;
+            }
+            .sete2{
+                width:20%;
+                height:inherit;
+                background-color:rgb(255, 222, 172);
+                display:inline-block;
+                float:right;
+            }
+            .sete3{
+                width:20%;
+                height:inherit;
+                background-color:firebrick;
+                display:inline-block;
+                float:right;
+            }
+            .sete4{
+                width:20%;
+                height:inherit;
+                background-color:rgb(183, 0, 255);
+                display:inline-block;
+                float:right;
+            }
+            .sete5{
+                width:20%;
+                height:inherit;
+                background-color:rgb(59, 190, 199);
+                display:inline-block;
+                float:right;
+            }
+    </style>
     </head>
     <body>
         <div class="site">
             <div class="site">
-                <div class="um"></div>
-                <div class="dois"></div>
-                <div class="tres"></div>
+                <div class="um">
+                    <div class="um1"></div>
+                    <div class="um2"></div>
+                    <div class="um3"></div>
+                </div>
+                <div class="dois">
+                    <div class="dois1"></div>
+                    <div class="dois2"></div>
+                    <div class="dois3"></div>
+                    <div class="dois4"></div>
+                    <div class="dois5"></div>
+                </div>
+                <div class="tres">
+                    <div class="tres1"></div>
+                    <div class="tres2"></div>
+                    <div class="tres3"></div>
+                </div>
                 <div class="quatro"></div>
-                <div class="cinco"></div>
+                <div class="cinco">
+                    <div class="cinco1"></div>
+                    <div class="cinco2"></div>
+                    <div class="cinco3"></div>
+                    <div class="cinco4"></div>
+                </div>
                 <div class="seis"></div>
-                <div class="sete"></div>
+                <div class="sete">
+                    <div class="sete1"></div>
+                    <div class="sete2"></div>
+                    <div class="sete3"></div>
+                    <div class="sete4"></div>
+                    <div class="sete5"></div>
+                </div>
         </div>
     </body>    
 </html>
