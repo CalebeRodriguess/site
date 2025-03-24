@@ -117,7 +117,21 @@
                 background-color:burlywood;
                 display:inline-block;
             }
-            
+            .divisão1{
+                width:inherit;
+                height:33%;
+                background-color:hotpink;
+            }
+            .divisão2{
+                width:inherit;
+                height:33%;
+                background-color:rgb(61, 93, 113);
+            }
+            .divisão3{
+                width:inherit;
+                height:33%;
+                background-color:rgb(159, 38, 81);
+            }
             .direita{
                 width:190px;
                 height:630px;
@@ -169,9 +183,16 @@
                 </div>
                 <div class="centro">
                     <div class="centro1">
-
-                    </div>
+                    </div>  
+                    
                     <div class="centro2">
+                        <div class="divisão1">
+                        </div>
+                        <div class="divisão2">
+                        </div>
+                        <div class="divisão3">
+
+                        </div>
                     </div>
                     
                 </div>
