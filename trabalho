@@ -27,21 +27,21 @@
             .header2{
                 width:25%;
                 height:inherit;
-                background-color:salmon;
+                background-color:rgb(178, 93, 248);
                 display:inline-block;
                 float:left;
             }
             .header3{
                 width:25%;
                 height:inherit;
-                background-color:darkred;
+                background-color:rgb(0, 119, 255);
                 display:inline-block;
                 float:left;
             }
             .header4{
                 width:25%;
                 height:inherit;
-                background-color:darkorange;
+                background-color:rgb(0, 238, 255);
                 display:inline-block;
                 float:left;
             }
@@ -56,7 +56,7 @@
                 width:1900px;
                 height:315px;
                 padding:0px;
-                background-color:blue;
+                background-color:rgb(190, 78, 12);
             }
             .footer1{
                 width:33%;
@@ -75,7 +75,7 @@
             .footer3{
                 width:34%;
                 height:150px;
-                background-color:blueviolet;
+                background-color:blue;
                 display:inline-block;
                 float:left;
             }
@@ -83,7 +83,7 @@
                 width:190px;
                 height:630px;
                 float:right;
-                background-color:yellow;
+                background-color:rgb(97, 97, 70);
             }
             .esquerda1{
                 width:inherit;
@@ -107,30 +107,29 @@
             .centro1{
                 width:950px;
                 height:50%;
-                background-color:hotpink;
+                background-color:black;
                 display:inline-block;
                 float:left;
             }
             .centro2{
-                width:710px;
+                width:1200px;
                 height:50%;
-                background-color:burlywood;
+                background-color:rgb(255, 145, 0);
                 display:inline-block;
+                float:left;
+            }
+            .divisão{
+                width:510px;
+                height:400px;
+                background-color:rgb(255, 174, 0);
+                display:inline-block;
+                float:right;
             }
             .divisão1{
-                width:inherit;
-                height:33%;
-                background-color:hotpink;
-            }
-            .divisão2{
-                width:inherit;
-                height:33%;
-                background-color:rgb(61, 93, 113);
-            }
-            .divisão3{
-                width:inherit;
-                height:33%;
-                background-color:rgb(159, 38, 81);
+                width:1710px;
+                height:400px;
+                background-color:rgb(221, 255, 70);
+               
             }
             .direita{
                 width:190px;
@@ -142,13 +141,14 @@
             .direita1{
                 width:inherit;
                 height:50%;
-                background-color:black;
+                background-color:rgb(111, 168, 151);
             }
             .direita2{
                 width:inherit;
                 height:50%;
                 background-color:purple;
             }
+           
         </style>
     </head>
     <body>
@@ -186,13 +186,11 @@
                     </div>  
                     
                     <div class="centro2">
+                    <div class="divisão"> 
+                    </div>
                         <div class="divisão1">
                         </div>
-                        <div class="divisão2">
-                        </div>
-                        <div class="divisão3">
-
-                        </div>
+                       
                     </div>
                     
                 </div>
@@ -201,9 +199,7 @@
 
                     </div>
                     <div class="direita2">
-
                     </div>
-                    
                 </div>
            </div>
            <div class="footer">
