@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="PT-BR">
     <head>
@@ -205,18 +206,31 @@
                 color:black;
             }
             .pum1{
-                color:;
-                font-family:;
-                font-weight:;
-                font-size:;
-                text-align:;
-                vertical-align:;
+                color:white;
+                font-family:Arial;
+                font-weight:bold;
+                font-size:15px;
+                text-align:center;
+                vertical-align:center;
             }
             .pum2{
-
+                color:white;
+                font-family:Arial;
+                font-weight:bold;
+                font-size:15px;
+                text-align:center;
+                vertical-align:center;
             }
             .pum3{
-
+                color:white;
+                font-family:Arial;
+                font-weight:bold;
+                font-size:15px;
+                text-align:center;
+                vertical-align:center;
+            }
+            .ptres2{
+                
             }
         </style>
     </head>
@@ -255,10 +269,10 @@
 
                 </div>
                 <div class="tres2">
-
+                    <p class="ptres2">caleberodri_</p>
                 </div>
                 <div class="tres3">
-
+                    
                 </div>
             </div>
             <div class="quatro">
@@ -280,7 +294,7 @@
             </div>
             <div class="seis">
                 <p class="comentario">
-                    Neymar.Jr
+                    Cristiano Ronaldo
                 </p>
             </div>
             <div class="sete">
