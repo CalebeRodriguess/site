@@ -1,70 +1,90 @@
-// comando // cria comentarios.
-// comentarios servem para deixar os codigos organizados
+// comando "//" cria comentarios.
+// comentarios servem para deixar os codigos
+// organizados
 
-// javascript E case sensitive (diferencia letras maíusculas de letras mínusculas)
+// javascript é case sensitive (diferencia
+// letras maiusculas de letras minusculas)
 
-// varíaveis servem para armazenar informacoes.
-// elas são organizados em string, int, boolean, etc.
-// comando que cria varíaveis é o let, porém é possivel também usar o "const" e o comando "var".
-// para mostrar alguma coisa na tela, é usado o codigo "console.log();"
+// variaveis servem para armazenar informacoes.
+// elas são organizadas em string, int, boolean,
+//etc.
+// comando que cria variaveis é o "let", porém é
+// possivel tambem usar o "const".
+// para mostrar alguma coisa na tela, é usado o
+// codigo "console.log();"
 
-// varíaveis do tipo string
-let idade = "dezessete anos";
+// variaveis do tipo string
+let idade = "trinta anos";
 let complemento = " de idade";
 console.log(idade+complemento);
 
-// varíaveis do tipo inteiro
-let altura = 25;
-altura *= 10;
+// variaveis do tipo inteiro
+let altura = 185;
+altura /= 10;
 
 console.log(altura);
 
-// varíaveis do tipo booleano
-let numero1 = 10;
+// variaveis do tipo booleano
+let numero1 = 11;
 let numero2 = 9;
 let numero3 = 10;
 
-console.log(numero1===numero3);
+console.log(numero1===numero2);
 
 // trabalhando com condicionais
-if(numero1==10){
-    console.log("o numero1 vale 10");
+if(numero1 == 9){
+   console.log("o numero1 e diferente de 9");
 }else{
-    console.log("o numero1 vale 10");
+    console.log("o numero1 é diferente de 10");
 }
 
-// codigo é = "&&"
-// codigo é = "||"
+// Questao1 -> Sabe-se que as pessoas abaixo de
+// 16 anos nao podem votar, as pessoas com idade
+// entre 16 e 18 possuem voto facultativo, as
+//pessoas com idade entre 18 e 70 anos possuem
+// voto obrigatorio e as pessoas com idade acima
+// de 70 anos tambem possuem voto facultativo.
+// faca um codigo que diga atraves da idade, a
+// condicao de voto dela.
 
-let idadex =16;
+// codigo e = "&&"
+// codigo ou = "||"
 
-if(idadex<16){
-    console.log("eleitor não pode votar");
-}else if(idadex >=18 && idadex <=70){
-    console.log("eleitor é obrigado a votar");
+let idadex = 16;
+
+if(idadex < 16){
+    console.log("Eleitor não pode votar");
+}else if(idadex >= 18 && idadex <= 70){
+    console.log("Eleitor é obrigado a votar");
 }else if(idadex >= 16 && idadex < 18 || idadex >70){
-    console.log("eleitor possui voto facultativo");
+    console.log("Eleitor possui voto facultativo");
 }
-// declarando as variaveis dos numeros sorteados
 
-let numsort1 = 23;
-let numsort2 = 34;
-let numsort3 = 50;
-let numsort4 = 17;
-let numsort5 = 44;
-let numsort6 = 19;
+// Questao2 -> Ganhar na mega sena é o sonho de
+// todo brasileiro. Diariamente milhares de
+// pessoas apostam sonhando com a chance de
+// mudar de vida. Faça um codigo que verique os
+// numeros apostados e os numeros sorteados e
+// diga se o apostador ganhou na quadra, quina
+// ou sena.
 
-// declarando as variaveis dos numeros apostados
+//declarando as variaveis dos numeros sorteados
+let numerosorteado1 = 47;
+let numerosorteado2 = 56;
+let numerosorteado3 = 17;
+let numerosorteado4 = 38;
+let numerosorteado5 = 32;
+let numerosorteado6 = 21;
 
-let numapost1 = 34;
-let numapost2 = 23;
-let numapost3 = 17;
-let numapost4 = 50;
-let numapost5 = 19;
-let numapost6 = 44;
+//declarando as variaveis dos numeros apostados
+let numeroapostado1 = 17;
+let numeroapostado2 = 32;
+let numeroapostado3 = 56;
+let numeroapostado4 = 21;
+let numeroapostado5 = 38;
+let numeroapostado6 = 47;
 
-// verificacao da dezena sorteada
-
+//verificacao da dezena sorteada
 let dezena1;
 let dezena2;
 let dezena3;
@@ -72,252 +92,310 @@ let dezena4;
 let dezena5;
 let dezena6;
 
-
-if(numapost1 == numsort1 ||
-numapost1 == numsort2 ||
-numapost1 == numsort3 ||
-numapost1 == numsort4 ||
-numapost1 == numsort5 ||
-numapost1 == numsort6
-){  
+//verificando o numeroapostado1
+if(numeroapostado1 == numerosorteado1 ||
+numeroapostado1 == numerosorteado2 ||
+numeroapostado1 == numerosorteado3 ||
+numeroapostado1 == numerosorteado4 ||
+numeroapostado1 == numerosorteado5 ||
+numeroapostado1 == numerosorteado6
+){
     dezena1 = 0;
     console.log(dezena1);
-}
-if(numapost2 == numsort1 ||
-numapost2 == numsort2 ||
-numapost2 == numsort3 ||
-numapost2 == numsort4 ||
-numapost2 == numsort5 ||
-numapost2 == numsort6 ){
-   
-    dezena2 = 0;
-    console.log(dezena2);
-   
-}
-if(numapost3 == numsort1 ||
-numapost3 == numsort2 ||
-numapost3 == numsort3 ||
-numapost3 == numsort4 ||
-numapost3 == numsort5 ||
-numapost3 == numsort6 ){
-   
-    dezena3 = 0;
-    console.log(dezena3);
-   
-}
-if(numapost4 == numsort1 ||
-numapost4 == numsort2 ||
-numapost4 == numsort3 ||
-numapost4 == numsort4 ||
-numapost4 == numsort5 ||
-numapost4 == numsort6 ){
-   
-    dezena4 = 0;
-    console.log(dezena4);
-   
-}
-if(numapost5 == numsort1 ||
-numapost5 == numsort2 ||
-numapost5 == numsort3 ||
-numapost5 == numsort4 ||
-numapost5 == numsort5 ||
-numapost5 == numsort6 ){
-   
-    dezena5 = 0;
-    console.log(dezena5);
-   
-}
-if(numapost6 == numsort1 ||
-numapost6 == numsort2 ||
-numapost6 == numsort3 ||
-numapost6 == numsort4 ||
-numapost6 == numsort5 ||
-numapost6 == numsort6 ){
-   
-    dezena6 = 0;
-    console.log(dezena6);
+
 }
 
-if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 == 0
+//verificando o numeroapostado2
+if(numeroapostado2 == numerosorteado1 ||
+numeroapostado2 == numerosorteado2 ||
+numeroapostado2 == numerosorteado3 ||
+numeroapostado2 == numerosorteado4 ||
+numeroapostado2 == numerosorteado5 ||
+numeroapostado2 == numerosorteado6){
+
+    dezena2 = 0;
+    console.log(dezena2);
+
+}
+
+//verificando o numeroapostado3
+if(numeroapostado3 == numerosorteado1 ||
+numeroapostado3 == numerosorteado2 ||
+numeroapostado3 == numerosorteado3 ||
+numeroapostado3 == numerosorteado4 ||
+numeroapostado3 == numerosorteado5 ||
+numeroapostado3 == numerosorteado6){
+
+    dezena3 = 0;
+    console.log(dezena3);
+
+}
+
+//verificando o numeroapostado4
+if(numeroapostado4 == numerosorteado1 ||
+numeroapostado4 == numerosorteado2 ||
+numeroapostado4 == numerosorteado3 ||
+numeroapostado4 == numerosorteado4 ||
+numeroapostado4 == numerosorteado5 ||
+numeroapostado4 == numerosorteado6){
+
+    dezena4 = 0;
+    console.log(dezena4);
+
+}
+
+//verificando o numeroapostado5
+if(numeroapostado5 == numerosorteado1 ||
+numeroapostado5 == numerosorteado2 ||
+numeroapostado5 == numerosorteado3 ||
+numeroapostado5 == numerosorteado4 ||
+numeroapostado5 == numerosorteado5 ||
+numeroapostado5 == numerosorteado6){
+
+    dezena5 = 0;
+    console.log(dezena5);
+
+}
+
+//verificando o numeroapostado6
+if(numeroapostado6 == numerosorteado1 ||
+    numeroapostado6 == numerosorteado2 ||
+    numeroapostado6 == numerosorteado3 ||
+    numeroapostado6 == numerosorteado4 ||
+    numeroapostado6 == numerosorteado5 ||
+    numeroapostado6 == numerosorteado6){
+   
+        dezena6 = 0;
+        console.log(dezena6);
+   
+    }
+
+
+// verificando se ganhei
+
+if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+    console.log("GANHEI NA MEGA-SENA");
+}else if(
+   
+    dezena1 != 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 == 0
+   
     ){
-console.log("Maravilha, to rico, ganhei na mega-sena");
+    console.log("GANHEI NA QUINA DA MEGA-SENA");
 }else if(
    
-dezena1 != 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 != 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quina");
+    ){
+    console.log("GANHEI NA QUINA DA MEGA-SENA");
 }else if(
    
-dezena1 == 0 && dezena2 != 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 != 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quina");
+    ){
+    console.log("GANHEI NA QUINA DA MEGA-SENA");
 }else if(
    
-dezena1 == 0 && dezena2 == 0 && dezena3 != 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 != 0 &&
+    dezena5 == 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quina");
+    ){
+    console.log("GANHEI NA QUINA DA MEGA-SENA");
 }else if(
    
-dezena1 == 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 != 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 != 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quina");
+    ){
+    console.log("GANHEI NA QUINA DA MEGA-SENA");
 }else if(
    
-dezena1 == 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 != 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 != 0
    
-){
+    ){
+    console.log("GANHEI NA QUINA DA MEGA-SENA");
+}
+
+
+
+
+else if(
    
-    console.log("ganhei na quina");
+    dezena1 != 0 && dezena2 != 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 == 0
+   
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 != 0
+    dezena1 != 0 && dezena2 == 0 &&
+    dezena3 != 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quina");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 != 0
+    dezena1 != 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 != 0 &&
+    dezena5 == 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 != 0 && dezena2 != 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 != 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 != 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 != 0 && dezena2 == 0 && dezena3 != 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 != 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 != 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 != 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 != 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 != 0 &&
+    dezena3 != 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 != 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 != 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 != 0 &&
+    dezena3 == 0 && dezena4 != 0 &&
+    dezena5 == 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 != 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 != 0
+    dezena1 == 0 && dezena2 != 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 != 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 != 0 && dezena3 != 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 != 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 != 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 != 0 && dezena3 == 0
-&& dezena4 != 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 != 0 && dezena4 != 0 &&
+    dezena5 == 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 != 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 != 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 != 0 && dezena4 == 0 &&
+    dezena5 != 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 != 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 != 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 != 0 && dezena4 == 0 &&
+    dezena5 == 0 && dezena6 != 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 == 0 && dezena3 != 0
-&& dezena4 != 0 && dezena5 == 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 != 0 &&
+    dezena5 != 0 && dezena6 == 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 == 0 && dezena3 != 0
-&& dezena4 == 0 && dezena5 != 0 && dezena6 == 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 != 0 &&
+    dezena5 == 0 && dezena6 != 0
    
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else if(
    
-dezena1 == 0 && dezena2 == 0 && dezena3 != 0
-&& dezena4 == 0 && dezena5 == 0 && dezena6 != 0
+    dezena1 == 0 && dezena2 == 0 &&
+    dezena3 == 0 && dezena4 == 0 &&
+    dezena5 != 0 && dezena6 != 0
    
-){
-   
-    console.log("ganhei na quadra");
-}else if(
-   
-dezena1 == 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 != 0 && dezena5 != 0 && dezena6 == 0
-   
-){
-   
-    console.log("ganhei na quadra");
-}else if(
-   
-dezena1 == 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 != 0 && dezena5 == 0 && dezena6 != 0
-   
-){
-   
-    console.log("ganhei na quadra");
-}else if(
-   
-dezena1 == 0 && dezena2 == 0 && dezena3 == 0
-&& dezena4 == 0 && dezena5 != 0 && dezena6 != 0
-   
-){
-   
-    console.log("ganhei na quadra");
+    ){
+    console.log("GANHEI NA QUADRA");
 }else{
-    console.log("Quero pinga kkk")
+    console.log("Quero meu dinheiro de volta");
+}
+
+// Faça um codigo que diga se precisar colocar mais sal na comida, ou se o sal esta bom ou se a comida ficou muito salgada.
+
+// Faça um codigo que instrua o usuario a fazer um bolo.
+
+let sal = "fs";
+
+if(sal == "fs"){
+    console.log("Precisa colocar mais sal");
+}else if(sal == "tbs"){
+    console.log("Esta bom de sal");
+}else if(sal == "ms"){
+    console.log("Ficou salgado");
+}
+//-----------------------------------------------
+let açucar = "n";
+let ovo = "n";
+let chocolate = "n";
+let fermento = "n";
+let trigo = "n";
+let nescau = "n";
+let oleo = "n";
+let margarina = "n";
+let leite = "n";
+let leiteCondensado ="n";
+
+if(margarina == "n"){
+    console.log("Precisa derreter a margarina e colocar na bacia");
+}else if (margarina =="S"){
+    if(açucar == "n"){
+        console.log("adicione 2 xicaras de açucar");
+    }else if (açucar =="s"){
+        if(ovo == "n"){
+            console.log("adicione 4 ovos");
+        }else if(ovo == "s"){
+            console.log("misture tudo e faça um caldo");
+         if(leite == "n"){
+            console.log("adicione 1 xicara de leite");
+            }else if(leite == "s"){
+             if(oleo == "n"){
+               console.log("ferva o oleo e adicione a mistura");
+               }else if(oleo == "s"){
+               
+               }
+            }
+        }
+    }
 }
